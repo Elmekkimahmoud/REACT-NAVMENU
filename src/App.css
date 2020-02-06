@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+ul {
+  list-style-type: none;
+}
+.mainlist {
+  width: 100%;height: 100px; border-bottom: 3px solid #2196f7; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainlist ul {
+  display: flex; flex-direction: row; padding-top: 65px; 
+}
+.mainlist ul li {
+padding-left: 50px; font-family:  sans-serif; Font-size: 18px ;
+
+Font-weight: 400 ; Line-height: 20px ; color: black; cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.secandlist {
+  width: 140px;height: 125px; border:3px solid #2196f7 ;  margin-left: 172px; margin-top: -3px;
+   display: none;
+}
+.secandlist ul{
+  padding-left: 5px;
+  
+  display: flex; flex-direction: column; align-items: flex-start;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.secandlist ul li{
+  Font-size: 13px ; font-family:  sans-serif; color: black; padding-bottom: 20px; cursor: default;
+}
+.kk{
+  width: 140px;height: 125px; border:3px solid #2196f7 ;  margin-left: 172px !important ; margin-top: -3px;
+   display: block;
+}
+.kk ul{
+  padding-left: 5px;
+  
+  display: flex; flex-direction: column; align-items: flex-start;
+}
+.kk ul li{
+  Font-size: 13px ; font-family:  sans-serif; color: black; padding-bottom: 20px; cursor: default;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
